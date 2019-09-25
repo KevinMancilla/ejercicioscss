@@ -1,0 +1,85 @@
+body{
+  background-image: url(fondoblanco.jpg)
+}
+input, label {
+  display: block;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border-style: none;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: black
+}
+
+input[type=button] {
+  color: white;
+  margin: 5px;
+  background-color: green;
+
+}
+input[type=button]:hover {
+  cursor: pointer;
+  border: 1px solid #c93838;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+input[type=button]:active {
+  cursor: pointer;
+  color: white;
+  background-color: #c93838;
+  box-shadow: none;
+}
+
+#resultado {
+  color: white;
+  background-color: #35495e;
+}
+
+.container {
+  width: 250px;
+  background-color: black;
+  color: #FFF;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 15px double darkslategrey;
+  border-radius: 10px;
+}
+
+.panel {
+  margin-top: 10px;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 0 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  border: 15px double rgb(21, 39, 39);
+  border-radius: 5px;
+}
